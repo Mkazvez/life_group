@@ -2,21 +2,21 @@
     "development": {
       "username": "root",
       "password": "Hrennavam_33",
-      "database": "covid",
+      "database": "life_group",
       "host": "194.147.78.120",
       "dialect": "mysql"
     },
     "test": {
       "username": "root",
       "password": "Hrennavam_33",
-      "database": "covid",
+      "database": "life_group",
       "host": "194.147.78.120",
       "dialect": "mysql"
     },
     "production": {
       "username": "root",
       "password": "Hrennavam_33",
-      "database": "covid",
+      "database": "life_group",
       "host": "194.147.78.120",
       "dialect": "mysql"
     }

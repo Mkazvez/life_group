@@ -26,12 +26,14 @@ const db = require("./app/models");
 
 db.sequelize.sync();
 
-require("./app/routes/employee.routes")(app);
-require("./app/routes/user.routes")(app);
-require("./app/routes/reportgeneral.routes")(app);
-require("./app/routes/order.routes")(app);
-require("./app/routes/result.routes")(app);
-require("./app/routes/department.routes")(app);
+// require("./app/routes/employee.routes")(app);
+// require("./app/routes/user.routes")(app);
+// require("./app/routes/reportgeneral.routes")(app);
+// require("./app/routes/order.routes")(app);
+// require("./app/routes/result.routes")(app);
+// require("./app/routes/department.routes")(app);
+require("./app/routes/mail.routes")(app);
+require("./app/routes/object.routes")(app);
 
 // simple route
 app.get('/*', (req,res) => {

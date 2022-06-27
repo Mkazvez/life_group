@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.36c37857.chunk.css",
-    "main.js": "/static/js/main.5f2b0057.chunk.js",
-    "main.js.map": "/static/js/main.5f2b0057.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f0baedd7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f0baedd7.js.map",
-    "static/css/2.15ed35c1.chunk.css": "/static/css/2.15ed35c1.chunk.css",
-    "static/js/2.95ce90b5.chunk.js": "/static/js/2.95ce90b5.chunk.js",
-    "static/js/2.95ce90b5.chunk.js.map": "/static/js/2.95ce90b5.chunk.js.map",
-    "static/js/3.c7e72004.chunk.js": "/static/js/3.c7e72004.chunk.js",
-    "static/js/3.c7e72004.chunk.js.map": "/static/js/3.c7e72004.chunk.js.map",
+    "main.css": "/static/css/main.58748cf3.chunk.css",
+    "main.js": "/static/js/main.5664e8d6.chunk.js",
+    "main.js.map": "/static/js/main.5664e8d6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7a1bfce0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7a1bfce0.js.map",
+    "static/js/2.0251e621.chunk.js": "/static/js/2.0251e621.chunk.js",
+    "static/js/2.0251e621.chunk.js.map": "/static/js/2.0251e621.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.15ed35c1.chunk.css.map": "/static/css/2.15ed35c1.chunk.css.map",
-    "static/css/main.36c37857.chunk.css.map": "/static/css/main.36c37857.chunk.css.map",
-    "static/js/2.95ce90b5.chunk.js.LICENSE.txt": "/static/js/2.95ce90b5.chunk.js.LICENSE.txt",
-    "static/media/1e.45302930.jpg": "/static/media/1e.45302930.jpg",
-    "static/media/2e.d7ef012f.jpg": "/static/media/2e.d7ef012f.jpg",
-    "static/media/3e.64511e18.jpg": "/static/media/3e.64511e18.jpg",
-    "static/media/c1.36918f51.png": "/static/media/c1.36918f51.png",
-    "static/media/dx.light.css": "/static/media/dxicons.d8b3a23c.ttf"
+    "static/css/main.58748cf3.chunk.css.map": "/static/css/main.58748cf3.chunk.css.map",
+    "static/js/2.0251e621.chunk.js.LICENSE.txt": "/static/js/2.0251e621.chunk.js.LICENSE.txt",
+    "static/media/life-group.webflow.css": "/static/media/Group-47.d5aacff8.png",
+    "static/media/gisgkh.3fbc4bf4.png": "/static/media/gisgkh.3fbc4bf4.png",
+    "static/media/gosuslugi.a20dfecd.png": "/static/media/gosuslugi.a20dfecd.png",
+    "static/media/icon2.87d8e8e3.png": "/static/media/icon2.87d8e8e3.png",
+    "static/media/icon3.e036871e.png": "/static/media/icon3.e036871e.png",
+    "static/media/kaktus1-1.5bd44695.png": "/static/media/kaktus1-1.5bd44695.png",
+    "static/media/lifee-group-logo.05bcbf61.svg": "/static/media/lifee-group-logo.05bcbf61.svg",
+    "static/media/roseestr.27848c37.png": "/static/media/roseestr.27848c37.png",
+    "static/media/sberbank.3627b886.png": "/static/media/sberbank.3627b886.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f0baedd7.js",
-    "static/css/2.15ed35c1.chunk.css",
-    "static/js/2.95ce90b5.chunk.js",
-    "static/css/main.36c37857.chunk.css",
-    "static/js/main.5f2b0057.chunk.js"
+    "static/js/runtime-main.7a1bfce0.js",
+    "static/js/2.0251e621.chunk.js",
+    "static/css/main.58748cf3.chunk.css",
+    "static/js/main.5664e8d6.chunk.js"
   ]
 }
