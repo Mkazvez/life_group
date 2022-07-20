@@ -31,9 +31,10 @@ db.sequelize.sync();
 // require("./app/routes/reportgeneral.routes")(app);
 // require("./app/routes/order.routes")(app);
 // require("./app/routes/result.routes")(app);
-// require("./app/routes/department.routes")(app);
+// require("./app/routes/department.routes")(app);умн
 require("./app/routes/mail.routes")(app);
 require("./app/routes/object.routes")(app);
+require("./app/routes/news.routes")(app);
 
 // simple route
 app.get('/*', (req,res) => {
@@ -50,7 +51,7 @@ app.get('/*', (req,res) => {
 
 
 // set port, listen for requests
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8088;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });

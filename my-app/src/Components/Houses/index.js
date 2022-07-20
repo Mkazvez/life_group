@@ -9,12 +9,16 @@ const Houses = () => {
 
     const [houses1, setHouse] = useState([]);
     
-    useEffect(async () => {
-    await axios.get(`api/objects`)  
-        .then(res => {
-            setHouse(res.data);
-        });
-    }, []);
+    async function getHouse() {
+        await axios.get(`${window.origin}/api/objects`)  
+            .then(res => {
+                setHouse(res.data);
+            });
+    }
+
+    useEffect( () => {
+        getHouse()
+        }, []);
 
     return (
         <div class="wf-section">

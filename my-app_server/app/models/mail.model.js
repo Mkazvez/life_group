@@ -27,7 +27,7 @@ module.exports = (sequelize, Sequelize) => {
       FileFull: {
         type: Sequelize.STRING
       },
-      FileEmail: {
+      FileMail: {
         type: Sequelize.BLOB
       }
     });

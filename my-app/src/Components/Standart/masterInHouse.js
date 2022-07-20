@@ -3,9 +3,14 @@ import React, { useEffect } from "react";
 import ReactDOM from "react-dom";
 import { CSSTransition } from "react-transition-group";
 import "./Modal.css";
+// import pic_san from '../../static/images/pic_san.jpg';
+import afonyaGif from "../../static/images/afonya.gif";
+
 // import '../css/webflow.css'
 // import '../css/normalize.css'
 // import '../css/life-group.webflow.css'
+
+
 
 const News = props => {  
 
@@ -20,7 +25,7 @@ const News = props => {
         return function cleanup() {
         document.body.removeEventListener("keydown", closeOnEscapeKeyDown);
         };
-    }, []);
+    });
 
     return ReactDOM.createPortal(
         <CSSTransition
@@ -33,7 +38,11 @@ const News = props => {
             <div className="modal-header">
                 <h4 className="modal-title">{props.title}</h4>
             </div>
-            <div className="modal-body">{props.children}</div>
+            <div className="modal-body">
+                {props.children}
+                <img src={afonyaGif} alt="wait until the page loads" />
+                {/* <img src={pic_san} alt="wait until the page loads" /> */}
+            </div>
             <div className="modal-footer">
                 <button onClick={props.onClose} class="submit-button w-button">
                 Close

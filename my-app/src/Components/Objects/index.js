@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import '../css/webflow.css'
 import '../css/normalize.css'
 import '../css/life-group.webflow.css'

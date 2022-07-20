@@ -21,6 +21,7 @@ db.sequelize = sequelize;
 
 db.mail = require("./mail.model.js")(sequelize, Sequelize);
 db.object = require("./object.model.js")(sequelize, Sequelize);
+db.news = require("./news.model.js")(sequelize, Sequelize);
 // db.employee = require("./employee.model.js")(sequelize, Sequelize);
 // db.user = require("./user.model.js")(sequelize, Sequelize);
 // db.reportgeneral = require("./reportgeneral.model.js")(sequelize, Sequelize);

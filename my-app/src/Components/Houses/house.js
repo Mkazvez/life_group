@@ -12,11 +12,15 @@ const House = () => {
     console.log(id.id, `${window.origin}/api/objects/${id?id.id:'1'}`,window)
     const [house, setHouse] = useState([]);
     
-    useEffect(async () => {
+    async function getHouse() {
         await axios.get(`${window.origin}/api/objects/${id?id.id:'1'}`)  
             .then(res => {
                 setHouse(res.data);
             });
+    }
+
+    useEffect( () => {
+        getHouse()
         }, []);
 
     return (

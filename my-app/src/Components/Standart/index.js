@@ -17,7 +17,6 @@ import '../css/webflow.css'
 import '../css/normalize.css'
 import '../css/life-group.webflow.css'
 
-
 const Standart = () => {  
     const [showhouseInService, setShowhouseInService] = useState(false);
     const [showNews, setShowNews] = useState(false);

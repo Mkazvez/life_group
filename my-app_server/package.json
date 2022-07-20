@@ -1,7 +1,7 @@
 {
   "name": "my-app_server",
   "version": "1.0.0",
-  "description": "сервер для ковида морды",
+  "description": "сервер life-group",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

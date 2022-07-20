@@ -16,9 +16,14 @@ import About from '../../pages/About.js'
 //import result from '../../pages/Result';
 //import department from '../../pages/Department';
 import house from '../../pages/House';
+import newsInDetal from '../../pages/NewsInDetal';
+import newsDataGrid from '../../pages/NewsDataGrid';
+import newsGrid from '../../Components/News/newsGrid.js';
+
 import objects from '../../pages/Objects';
 import personalcabinet from '../../pages/PersonalCabinet';
 import error from '../../pages/Error';
+import admin from '../../pages/Admin';
 import Pays from "./Pay"
 
 import Footer from '../Footer';
@@ -47,8 +52,8 @@ import '../css/life-group.webflow.css'
                                 <nav role="navigation" class="nav-menu w-nav-menu">
                                     <a href="/objects" class="nav-link w-nav-link">Наши дома</a>
                                     <a href="/about" class="nav-link-2 w-nav-link">О компании</a>
-                                    <a onClick={() => setShowPay(true)} class="w-nav-link">Оплата</a>
-                                    <a href="/" class="w-nav-link">Новости</a>
+                                    <a onClick={() => setShowPay(true)} class="w-nav-link" style={{cursor:'pointer'}}>Оплата</a>
+                                    <a href="/newsDataGrid" class="w-nav-link">Новости</a>
                                     <a href="/" class="w-nav-link">Контакты</a>
                                 </nav>
                                 <div class="w-nav-button">
@@ -72,8 +77,12 @@ import '../css/life-group.webflow.css'
                         <Route exact path="/result" component={result} />
                         <Route exact path="/department" component={department} /> */}
                         <Route exact path="/house/:id" component={house} />
+                        <Route exact path="/newsInDetal/:id" component={newsInDetal} />
+                        <Route exact path="/newsDataGrid" component={newsDataGrid} />
                         <Route exact path="/objects" component={objects} />
                         <Route exact path="/personalcabinet" component={personalcabinet} />
+                        <Route exact path="/admin" component={admin} />
+                        {/* <Route exact path="/admin/newsGrid" element={<newsGrid />} /> */}
                         <Route component={error} />
                     </Switch>
                 </Router>
